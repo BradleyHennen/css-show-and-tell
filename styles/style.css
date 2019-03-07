@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif; 
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 50px auto 40px 20px;
+    font-size: 30px;
+}
+
+button {
+    padding: 16px 25px;
+    font-size: 18px;
+    width: 300px;
+    height: 125px;
+    background: maroon;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+#buttonOne:hover {
+   width: 180px;
+}
+
+#buttonOne {
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+
+#buttonTwo:hover {
+    background: blue;
+ }
+ 
+ #buttonTwo {
+     transition: background 3s;
+ }
+
+
+ #buttonThree:active {
+    width: 180px;
+ }
+
+ #buttonThree {
+    transition: width 2s;
+ }
+
+ #buttonFour:active {
+    padding: 100px;
+ }
+
+ #buttonFour {
+    transition: padding 2s;
+}
